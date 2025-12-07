@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery SCC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📸 Gallery SCC</h1>
+
+<!-- BOX NAMA -->
+<div class="box">
+    <h3>Masukkan Nama</h3>
+    <input id="username" placeholder="Contoh: Fathir">
+    <button onclick="saveUser()">Simpan</button>
+</div>
+
+<!-- BOX UPLOAD GAMBAR -->
+<div class="box">
+    <h3>Upload Gambar (Imgur / Discord / dll)</h3>
+    <input id="imgurl" placeholder="Masukkan link gambar...">
+    <button onclick="upload()">Upload</button>
+</div>
+
+<h2 style="text-align:center; margin-top:20px;">Postingan</h2>
+
+<div id="gallery" class="gallery"></div>
+
+<script src="gallery.js"></script>
+</body>
+</html>
